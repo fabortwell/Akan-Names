@@ -9,3 +9,10 @@
     display: flex;
     justify-content: center;
 }
+form {
+    text-align: left;
+    border-radius:15px;
+    padding:22px;
+    width: 80%;
+    margin-left: 25%;
+}
