@@ -1,14 +1,13 @@
 function submitForm(event) {
-event.prventDefault();
-var dat =documents. form[
-    "akanform"
+event.preventDefault();
+var date =documents. form[
+    "akanForm"
 ]["birthday"]. value;
 var gender =documents.forms[
     "akanForm"
 ]["gender"].value;
 var akanName= "";
-]
-
+}
 var femaleNames =[
     'Akosua',
     'Adwoa',
@@ -18,7 +17,9 @@ var femaleNames =[
     'Afua',
     'Ama',
 ];
-var MaleNames =[
+
+
+var maleNames =[
 'Akosua',
 'Kwadwo',
 'Kwabena',
@@ -38,6 +39,7 @@ if (day !=null && gender != null) {
 
     
     else{
+
         akanName = femaleNames[day];
     }
 }
@@ -45,4 +47,5 @@ if (day !=null && gender != null) {
 
 document.getElementById(
     'akanName').innerHTML = akanName;
-)
+}
+
