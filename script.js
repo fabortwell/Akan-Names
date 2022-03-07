@@ -45,7 +45,13 @@ if (day !=null && gender != null) {
 }
 
 
-document.getElementById(
-    'akanName').innerHTML = akanName;
-}
+document.getElementById('akanName').addEventListener('click', function (event){
+    event.preventDefault();
+    submitForm();
+
+});
+
+    
+
+  
 
